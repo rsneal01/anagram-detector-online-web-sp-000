@@ -2,8 +2,6 @@
 
 class Anagram
   
-  
-  
   attr_accessor :word
   
   def initialize(word)
@@ -15,7 +13,5 @@ class Anagram
     array_of_words.select do |element|
       element.split("").sort == anagram
     end
-    
   end
-  
 end
