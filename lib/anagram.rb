@@ -11,8 +11,8 @@ class Anagram
   end
   
   def match(array_of_words)
-    anagram = @word.split("")
-    array_of_words.each do |element|
+    anagram = @word.split("").sort
+    array_of_words.select do |element|
       element.split("").sort == anagram
     end
     
