@@ -3,6 +3,7 @@
 class Anagram
   
   @@new_array = []
+  
   attr_accessor :word
   
   def initialize(word)
