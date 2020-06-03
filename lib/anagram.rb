@@ -2,6 +2,7 @@
 
 class Anagram
   
+  @@new_array = []
   attr_accessor :word
   
   def initialize(word)
@@ -9,8 +10,8 @@ class Anagram
   end
   
   def match(array_of_words)
-    new_array << array_of_words.split("")
-    new_array
+    @@new_array << array_of_words.split("")
+    
     
   end
   
