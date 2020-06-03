@@ -15,6 +15,7 @@ class Anagram
     array_of_words.each do |element|
       element.split("").sort == anagram
     end
+    
   end
   
 end
