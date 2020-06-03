@@ -11,7 +11,9 @@ class Anagram
   end
   
   def match(array_of_words)
-    @word.split("")
+    anagram = @word.split("")
+    array_of_words.each do |element|
+      element.split("")
     # checks the new array to see if @word shares all same elements
   end
   
